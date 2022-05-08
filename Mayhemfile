@@ -1,0 +1,5 @@
+project: rnshah9/mm0
+target: mm0-c
+
+cmds:
+  - cmd: /mm0-c @@
