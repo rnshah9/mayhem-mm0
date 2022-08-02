@@ -4,7 +4,7 @@ RUN apt-get update
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get install  -y clang
 
-ADD . /mm0
+COPY . /mm0
 WORKDIR /mm0/mm0-c
 
 RUN clang main.c -o mm0-c -D NO_PARSER
